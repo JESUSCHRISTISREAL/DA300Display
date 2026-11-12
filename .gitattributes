@@ -1,0 +1,4 @@
+# Normalize line endings: Windows CRLF in the working folder, LF stored in git
+* text=auto eol=crlf
+*.exe binary
+*.dll binary

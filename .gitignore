@@ -1,0 +1,23 @@
+# DA300Display repo: whitelist approach - only tracked project files, nothing else from the working folder
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/docs/
+!/build.ps1
+!/DA300Display.cs
+!/installer/
+/installer/*
+!/installer/Setup.cs
+!/foobar/
+/foobar/*
+!/foobar/sdk/
+/foobar/sdk/*
+!/foobar/sdk/foobar2000/
+/foobar/sdk/foobar2000/*
+!/foobar/sdk/foobar2000/foo_da300display/
+/foobar/sdk/foobar2000/foo_da300display/*
+!/foobar/sdk/foobar2000/foo_da300display/foo_da300display.cpp
+!/foobar/sdk/foobar2000/foo_da300display/foo_da300display.vcxproj
+!/releases/
